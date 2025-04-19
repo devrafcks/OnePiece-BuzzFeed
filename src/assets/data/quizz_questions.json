@@ -1,0 +1,55 @@
+{
+  "title": "Você seria um Marinheiro ou um Pirata em One Piece?",
+  "questions": [
+    {
+      "id": 1,
+      "question": "Qual dessas frutas do diabo você comeria?",
+      "options": [
+        { "id": 1, "name": "Gomu Gomu no Mi (Borracha)", "alias": "B" },
+        { "id": 2, "name": "Hie Hie no Mi (Gelo)", "alias": "A" },
+        { "id": 3, "name": "Yami Yami no Mi (Trevas)", "alias": "B" },
+        { "id": 4, "name": "Pika Pika no Mi (Luz)", "alias": "A" },
+        { "id": 5, "name": "Mera Mera no Mi (Fogo)", "alias": "B" }
+      ]
+    },
+    {
+      "id": 2,
+      "question": "Você encontrou um mapa do tesouro secreto. O que faz?",
+      "options": [
+        { "id": 1, "name": "Segue em busca do tesouro com sua tripulação", "alias": "B" },
+        { "id": 2, "name": "Entrega para os superiores da Marinha", "alias": "A" },
+        { "id": 3, "name": "Usa o mapa para atrair piratas e capturá-los", "alias": "A" }
+      ]
+    },
+    {
+      "id": 3,
+      "question": "O que mais te motiva em uma jornada pelos mares?",
+      "options": [
+        { "id": 1, "name": "Liberdade e aventura", "alias": "B" },
+        { "id": 2, "name": "Justiça e ordem", "alias": "A" },
+        { "id": 3, "name": "Ser reconhecido mundialmente", "alias": "B" },
+        { "id": 4, "name": "Proteger os inocentes", "alias": "A" }
+      ]
+    },
+    {
+      "id": 4,
+      "question": "Qual seria o seu lema?",
+      "options": [
+        { "id": 1, "name": "Justiça absoluta!", "alias": "A" },
+        { "id": 2, "name": "Meu navio, minhas regras!", "alias": "B" }
+      ]
+    },
+    {
+      "id": 5,
+      "question": "Como seria o seu visual?",
+      "options": [
+        { "id": 1, "name": "Uniforme impecável com medalhas", "alias": "A" },
+        { "id": 2, "name": "Bandana, tatuagens e sorriso no rosto", "alias": "B" }
+      ]
+    }
+  ],
+  "results": {
+    "A": "Você seria da Marinha! Um defensor da justiça nos mares, disciplinado, firme e comprometido com a ordem mundial!",
+    "B": "Você seria um Pirata! Livre como o vento, corajoso e com sede de aventura, nada te impede de buscar o One Piece!"
+  }
+}
