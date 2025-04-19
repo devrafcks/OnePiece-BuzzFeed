@@ -1,9 +1,10 @@
 import { Component } from '@angular/core';
-import { QuizComponent } from "../../components/quiz/quiz.component";
+import { QuizzComponent } from "../../components/quiz/quiz.component";
 
 @Component({
   selector: 'app-home',
-  imports: [QuizComponent],
+  imports: [QuizzComponent],
+  standalone: true,
   templateUrl: './home.component.html',
 })
 export class HomeComponent {

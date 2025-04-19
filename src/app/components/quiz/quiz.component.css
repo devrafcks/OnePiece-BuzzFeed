@@ -72,7 +72,7 @@
 .btn-option:hover {
   background-color: #f4d58d;
   color: #1b263b;
-  transform: scale(1.04);
+  transform: scale(1.01);
 }
 
 .btn-option:active {
@@ -80,8 +80,10 @@
 }
 
 .quizz__results {
+  margin-top: 20px;
   background-color: #1e2d3d;
-  height: 130px;
+  height: auto;
+
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -97,6 +99,25 @@
 }
 
 .quizz__results p {
-  font-size: 25px;
+  font-size: 20px;
   color:rgb(255, 255, 255);
+  font-family: 'Rubik', sans-serif;
+  margin-bottom: 20px;
 }
+
+.img__result {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.img__result img {
+  width: 350px;
+  max-width: 80%;
+  height: auto;
+  margin: 0px auto;
+  border-radius: 15px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease;
+}
+
